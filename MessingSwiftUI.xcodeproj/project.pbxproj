@@ -14,6 +14,8 @@
 		AA878469290B1B2D007923AF /* MessingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA878468290B1B2D007923AF /* MessingSwiftUITests.swift */; };
 		AA878473290B1B2D007923AF /* MessingSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA878472290B1B2D007923AF /* MessingSwiftUIUITests.swift */; };
 		AA878475290B1B2D007923AF /* MessingSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA878474290B1B2D007923AF /* MessingSwiftUIUITestsLaunchTests.swift */; };
+		AA878482290B1D8F007923AF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA878481290B1D8F007923AF /* ContentViewModel.swift */; };
+		AA878484290B1EBB007923AF /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA878483290B1EBB007923AF /* DishModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AA87846E290B1B2D007923AF /* MessingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA878472290B1B2D007923AF /* MessingSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessingSwiftUIUITests.swift; sourceTree = "<group>"; };
 		AA878474290B1B2D007923AF /* MessingSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessingSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA878481290B1D8F007923AF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		AA878483290B1EBB007923AF /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				AA878459290B1B2A007923AF /* ContentView.swift */,
 				AA87845B290B1B2C007923AF /* Assets.xcassets */,
 				AA87845D290B1B2C007923AF /* Preview Content */,
+				AA878481290B1D8F007923AF /* ContentViewModel.swift */,
+				AA878483290B1EBB007923AF /* DishModel.swift */,
 			);
 			path = MessingSwiftUI;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				AA87845A290B1B2A007923AF /* ContentView.swift in Sources */,
 				AA878458290B1B2A007923AF /* MessingSwiftUIApp.swift in Sources */,
+				AA878482290B1D8F007923AF /* ContentViewModel.swift in Sources */,
+				AA878484290B1EBB007923AF /* DishModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
